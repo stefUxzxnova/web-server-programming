@@ -47,7 +47,7 @@ public class MaintenanceRepoImp implements MaintenanceRepository{
 
   @Override
   public void delete(Maintenance maintenance) {
-    entityManager.remove(entityManager);
+    entityManager.remove(maintenance);
   }
 
   @Override
